@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Keon Coffee NFC Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 40px; background: #f9f9f9; }
+    .card {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .logo {
+      width: 140px;
+      margin-bottom: 15px;
+    }
+    h1 { margin-bottom: 10px; }
+    .links a {
+      display: block;
+      margin: 10px 0;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    /* Brand colors */
+    .tiktok { background: #000000; }
+    .instagram { background: #E1306C; }
+    .facebook { background: #1877F2; }
+    .google { background: #DB4437; }
+    .email { background: #0078D7; }
+    .links a:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="goat-logo.jpeg" alt="Keon Coffee Logo" class="logo">
+    <h1>Keon Coffee</h1>
+    <p>Tap my NFC tag and connect:</p>
+    <div class="links">
+      <a href="https://tiktok.com/@keon.coffee?_r=1&_t=ZS-93gqbwO30uS" target="_blank" class="tiktok">🎵 TikTok</a>
+      <a href="mailto:keoncoffee@example.com" class="email">✉️ Email</a>
+      <a href="https://instagram.com/keon.coffee?rpxt=bXJ0ODg0aTY3djEx" target="_blank" class="instagram">📸 Instagram</a>
+      <a href="https://www.facebook.com/share/1UF5VfvUAV/?mibextid=wwXIfr" target="_blank" class="facebook">📘 Facebook</a>
+      <a href="https://search.google.com/local/writereview?placeid=ChIJ71RPYQBXljMRZYWPPDLe21g" target="_blank" class="google">⭐ Google Review</a>
+    </div>
+  </div>
+</body>
+</html>
